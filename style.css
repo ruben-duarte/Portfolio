@@ -1022,6 +1022,11 @@ nav .fa-solid{
 }
 
 @media only screen and (max-width: 600px){
+    body{
+        width: 412px;
+    }
+
+
     .header-text img{
         width: 350px;
         margin-left: 25px;
@@ -1036,7 +1041,7 @@ nav .fa-solid{
         background: #17C0FE;
         position: fixed;
         top: 0;
-        right: -200px;
+        right: 265px;
         width: 200px;
         height: 100vh;
         padding-top: 50px;
@@ -1080,13 +1085,14 @@ nav .fa-solid{
     }
 
     h1{
-        font-size: 16px;
+        font-size: 12px;
     }
 
     #welcome .boton{
         margin-left: 160px;
         margin-top: 570px;
     }
+
 
     .work-list{
         display: grid;
@@ -1095,9 +1101,20 @@ nav .fa-solid{
         margin-top: 40px;
         justify-content: center;
     }
+/* -----Services------ */
+
+ #services p{
+    color: #20204E;
+ }   
+
+ #services h1{
+    margin-left: 80px;
+ }
 
 #portfolio h1{
     margin-left: 140px;
+
+/* ------about-------     */
 }
 #about .about-col-2 h1{
     font-size: 18px;
@@ -1111,8 +1128,22 @@ nav .fa-solid{
 }
 
 #about .cubes{
-    margin-left: 180px;
+    margin-left: 80px;
 }
+
+.about-col-2 p{
+    color: #7EC8E3;
+}
+
+/* -------portfolio-------- */
+
+#portafolio .cubes a{
+    margin-right: 20px;
+}
+
+
+
+/* -------languages-------- */
 
 #technologies .languages-left{
     margin-left: 128px;
