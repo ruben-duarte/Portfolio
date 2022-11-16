@@ -429,7 +429,7 @@ h1::after{
 }
 
 .services-list div p{
-    color: #050A30;
+    color: #20204E;
     font-size: 17px;
     font-weight: bold;
 }
@@ -1040,8 +1040,8 @@ nav .fa-solid{
     nav ul{
         background: #17C0FE;
         position: fixed;
-        top: 0;
-        right: 265px;
+        top: 280px;
+        right: 25px;
         width: 200px;
         height: 100vh;
         padding-top: 50px;
@@ -1109,10 +1109,10 @@ nav .fa-solid{
 
  #services h1{
     margin-left: 80px;
+    font-size: 28px;
  }
 
-#portfolio h1{
-    margin-left: 140px;
+
 
 /* ------about-------     */
 }
@@ -1141,16 +1141,19 @@ nav .fa-solid{
     margin-right: 20px;
 }
 
-
+#portfolio h1{
+    margin-left: 140px;
+    font-size: 28px;
+}
 
 /* -------languages-------- */
 
 #technologies .languages-left{
-    margin-left: 128px;
+    margin-left: 180px;
     font-size: 7px;
 }
 #technologies .languages-right{
-    margin-left: 8px;
+    margin-left: 58px;
     font-size: 7px;
 }
 #technologies h1{
@@ -1161,5 +1164,50 @@ nav .fa-solid{
     margin-right: 140px;
     font-size: 12px;
 }
+.technologies ul li a{
+    color: #1186b1;
+    font-size: 18px;
+}
+
+
+
+#contact h1{
+    font-size: 28px;
+}
+
+/* ------Learing Journey------- */
+    
+#portafolio h1{
+    font-size: 28px;
+}
+
+#portafolio .cubes .fa-cubes{
+    color:#17C0FE;
+    font-size: 50px;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-left: 170px;
+    margin-top: 1px;
+}
+
+#portafolio .cubes .fa-cubes:hover{
+    color: #3cd369;
+}
+
+#contact .cubes .fa-cubes{
+    color:#17C0FE;
+    font-size: 50px;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-left: 160px;
+}
+#contact .cubes .fa-cubes:hover{
+    color: #3cd369;
+    transform: translateY(-10px);
+    transform: rotateX(1.5turn);
+    transition: 1s ease;
     
 }
+
+
+
