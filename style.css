@@ -1040,6 +1040,7 @@ nav .fa-solid{
     nav ul{
         background: #17C0FE;
         position: fixed;
+        display: none;
         top: 280px;
         right: 25px;
         width: 200px;
@@ -1149,27 +1150,21 @@ nav .fa-solid{
 /* -------languages-------- */
 
 #technologies .languages-left{
-    margin-left: 180px;
+    margin-left: 4px;
     font-size: 7px;
 }
 #technologies .languages-right{
-    margin-left: 58px;
+    margin-left: 8px;
     font-size: 7px;
 }
 #technologies h1{
       display: none;
 }
-#technologies .cubes{
-    margin-top: 500px;
-    margin-right: 140px;
-    font-size: 12px;
-}
+
 .technologies ul li a{
     color: #1186b1;
     font-size: 18px;
 }
-
-
 
 #contact h1{
     font-size: 28px;
