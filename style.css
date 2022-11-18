@@ -991,7 +991,7 @@ form .btn2{
     
 }
 
-
+/* -------Responsive Design------------- */
 @media only screen and (min-width: 768px){
     #portafolio .project-item {
         flex-direction: row;
@@ -1010,8 +1010,6 @@ form .btn2{
         flex-direction: row-reverse;
     }
 
-}   
-
 nav .fa-solid{
     display: none;
     font-size: 35px;
@@ -1020,6 +1018,10 @@ nav .fa-solid{
     background-color: #17C0FE;
     cursor: pointer;
 }
+
+} 
+
+
 
 @media only screen and (max-width: 600px){
     body{
@@ -1035,6 +1037,11 @@ nav .fa-solid{
     nav .fa-solid{
         display: block;
         font-size: 25px;
+        margin-left: 30px;
+        background-color: #17C0FE;
+        color: #1C1948;
+        padding: 8px;
+        cursor: pointer;
     }
 
     nav ul{
@@ -1116,7 +1123,7 @@ nav .fa-solid{
 
 
 /* ------about-------     */
-}
+
 #about .about-col-2 h1{
     font-size: 18px;
     margin-left: 10px;
@@ -1203,8 +1210,9 @@ nav .fa-solid{
     transition: 1s ease;
     
 }
+}
 
-@media only screen and (max-width: 720px) and (orientation: landscape){
+@media only screen and (max-width: 800px) and (orientation: landscape){
     
     body{
         width: 720px;
@@ -1320,8 +1328,32 @@ nav .fa-solid{
     margin-top: 30px;
 }
 
+/* ---------------Portfalio------------- */
+
+.work-list{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 8px;
+    margin-top: 40px;
+    justify-content: center;
+}
 
 
+/* -------------technologies Languages-------------- */
+
+.technologies h1{
+    display: none;
+}
+
+.technologies .languages-right{
+    margin-left: 100px;
+    font-size: 8px;
 
 }
 
+.technologies .languages-left{
+    margin-left: 100px;
+    font-size: 8px;
+}
+
+}
