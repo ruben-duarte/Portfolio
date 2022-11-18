@@ -1212,10 +1212,10 @@ nav .fa-solid{
 }
 }
 
-@media only screen and (max-width: 800px) and (orientation: landscape){
+@media only screen and (max-width: 920px) and (orientation: landscape){
     
     body{
-        width: 720px;
+        min-width: 100vh;
     }
 
     #presentation{
