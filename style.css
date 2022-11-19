@@ -1011,11 +1011,11 @@ form .btn2{
     }
 
 nav .fa-solid{
-    display: none;
+    
     font-size: 35px;
     margin-left: 100px;
-    color: #0c3e50;
-    background-color: #17C0FE;
+    color:#17C0FE;
+    background-color:#1C1948;
     cursor: pointer;
 }
 
@@ -1048,7 +1048,7 @@ nav .fa-solid{
         background: #17C0FE;
         position: fixed;
         display: none;
-        top: 280px;
+        top: 180px;
         right: 25px;
         width: 200px;
         height: 100vh;
