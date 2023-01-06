@@ -538,7 +538,21 @@ h1::after{
     height: 100%;
 }
 
+#LaFisioTP{
+    margin-top: 70px;
+    margin-left: 250px;
 
+}
+
+#LaFisioTP iframe{
+    width: 800px;
+    height: 550px;
+}
+
+#LaFisioTP a{
+    font-size: 24px;
+    color: #17C0FE;
+}
     
 
 /* Learning journey section */
@@ -1152,6 +1166,23 @@ nav .fa-solid{
 #portfolio h1{
     margin-left: 140px;
     font-size: 28px;
+}
+
+
+#LaFisioTP{
+    margin-top: 70px;
+    margin-left: 10px;
+
+}
+
+#LaFisioTP iframe{
+    width: 380px;
+    height: 250px;
+}
+
+#LaFisioTP a{
+    font-size: 22px;
+    color: #17C0FE;
 }
 
 /* -------languages-------- */
