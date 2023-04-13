@@ -51,7 +51,7 @@ p{
     position: absolute;
     width: 5em;
     height: 10em;
-    border: 3px  solid #081c15;
+    border: 2px  solid #0d1f22;
     box-shadow: inset 0px 0px 15px 5px  rgba(67, 195, 255, .2), 0px 0px 40px
     1px rgba(67, 195, 255, .15);
     border-radius: 10px;
@@ -331,7 +331,7 @@ h1::after {
 }
 
 h1::before {
-    background: #aacc00;
+    background: #d0ffb7;
     animation: typewriter var(--typewriterSpeed) steps(28) 1s forwards infinite;
 
 }
