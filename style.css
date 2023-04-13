@@ -98,7 +98,7 @@ p{
     font-size: 4rem;
     font-weight: 500;
     color: white;
-    background-color:#292B67;
+    background-color:#c7f9cc;
     border-radius: 0.5rem;
     margin-bottom:  20px;
     margin-top: 50px;
@@ -108,17 +108,18 @@ p{
 }
 
 #presentation{
-     background-image: url(./images/luca-bravo-XJXWbfSo2f0-unsplash.jpg);
-     background-size: cover;
-     background-position: top-center;
-     position:relative;
-     z-index: 1;
+    background-color: #c8d5b9;
+    
+}
+
+#presentation .container  h3{
+    color:#184e77
 }
 
 #presentation h3{
     display: block;
     width:fit-content;
-    font-size: 5rem;
+    font-size: 3rem;
     position: relative;
     color: transparent;
     animation: text_reveal .5s  ease forwards;
@@ -140,9 +141,9 @@ p{
 #presentation .cta{
     display: inline-block;
     padding: 10px 30px;
-    color:gold;
+    color:#184e77;
     background-color: transparent;
-    border: 2px solid gold;
+    border: 2px solid #184e77;
     border-radius: 2rem;
     font-size: 2rem;
     text-transform: uppercase;
@@ -150,6 +151,14 @@ p{
     margin-top: 20px;
     transition: .7s ease;
     transition-property: background-color, color;
+}
+
+#presentation .card {
+    background-color: #a8d5e2;
+    padding: 30px 40px;
+    border: 2px solid #184e77;
+    border-radius: 2rem;
+
 }
 
 #presentation .cta:hover{
@@ -166,7 +175,7 @@ p{
     width: 0;
     animation: text_reveal_box 1s  ease;
     animation-delay: 0.5s;
-    background-color: gold;
+    background-color: #c8d5b9;
 }
 
 #presentation h3:nth-child(1)  span{
