@@ -30,8 +30,8 @@ p{
 
 /* Preloading page section */
 .wrap-page{
-    background-color:#151433;
-    color: gold;
+    background-color: #4fb286;
+    color: #264653;
     min-height: 100vh;
 }
 
@@ -51,7 +51,7 @@ p{
     position: absolute;
     width: 5em;
     height: 10em;
-    border: 3px  solid gold;
+    border: 3px  solid #264653;
     box-shadow: inset 0px 0px 15px 5px  rgba(67, 195, 255, .2), 0px 0px 40px
     1px rgba(67, 195, 255, .15);
     border-radius: 10px;
@@ -79,8 +79,8 @@ p{
 
 #page-preloader .loading h1 {  
     font-size: 35px;
-    color: rgb(212, 175, 55);
-    text-shadow: 0  0  20px  #ffe600;
+    color: #50ffb1;
+    text-shadow: 0  0  20px  #2A9D8F;
 }   
 
 /* Intro section */
@@ -331,14 +331,14 @@ h1::after {
 }
 
 h1::before {
-    background: var(--bg-color);
+    background: #50ffb1;
     animation: typewriter var(--typewriterSpeed) steps(28) 1s forwards infinite;
 
 }
 
 h1::after{
     width: 0.125em;
-    background: whitesmoke;
+    background: #4fb286;
     animation: 
          typewriter var(--typewriterSpeed)  steps(28) 1s forwards infinite,
          blink 750ms steps(28) infinite;
