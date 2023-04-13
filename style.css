@@ -30,7 +30,7 @@ p{
 
 /* Preloading page section */
 .wrap-page{
-    background-color: #4fb286;
+    background-color: #2dc653;
     color: #264653;
     min-height: 100vh;
 }
@@ -51,7 +51,7 @@ p{
     position: absolute;
     width: 5em;
     height: 10em;
-    border: 3px  solid #264653;
+    border: 3px  solid #155d27;
     box-shadow: inset 0px 0px 15px 5px  rgba(67, 195, 255, .2), 0px 0px 40px
     1px rgba(67, 195, 255, .15);
     border-radius: 10px;
