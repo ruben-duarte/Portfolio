@@ -1058,7 +1058,8 @@ nav .fa-solid{
     }
 
     #presentation .card {
-        background-color: #a8d5e2;
+        background-color: #78A1BB;
+        opacity: 80%;
         padding: 30px 40px;
         border: 2px solid #184e77;
         border-radius: 2rem;
