@@ -28,6 +28,7 @@ p{
     letter-spacing: 0.05rem;
 }
 
+
 /* Preloading page section */
 .wrap-page{
     background-color: #bfd200;
@@ -108,12 +109,16 @@ p{
 }
 
 #presentation{
-    background-color: #c8d5b9;
+    background-color: #d4d700;
     
 }
 
+
 #presentation .container  h3{
-    color:#184e77
+    color:transparent;
+    font-family: monospace;
+    
+  
 }
 
 #presentation h3{
@@ -142,7 +147,7 @@ p{
     display: inline-block;
     padding: 10px 30px;
     color:#184e77;
-    background-color: transparent;
+    background-color: gold;
     border: 2px solid #184e77;
     border-radius: 2rem;
     font-size: 2rem;
@@ -154,17 +159,17 @@ p{
 }
 
 #presentation .card {
-    background-color: #a8d5e2;
+    background-color: #05b2dc;
     padding: 30px 40px;
     border: 2px solid #184e77;
     border-radius: 2rem;
-
+    
 }
 
 #presentation .cta:hover{
-    color:#03254c;
+    color:gold;
     font-weight: 700;
-    background-color: gold;
+    background-color: #03254c;
 }
 
 #presentation h3 span{
@@ -175,7 +180,7 @@ p{
     width: 0;
     animation: text_reveal_box 1s  ease;
     animation-delay: 0.5s;
-    background-color: #c8d5b9;
+    background-color: #a8d5e2;
 }
 
 #presentation h3:nth-child(1)  span{
@@ -1051,6 +1056,15 @@ nav .fa-solid{
         width: 412px;
     }
 
+    #presentation .card {
+        background-color: #a8d5e2;
+        padding: 30px 40px;
+        border: 2px solid #184e77;
+        border-radius: 2rem;
+        width: 400px;
+        
+    }
+    
 
     .header-text img{
         width: 340px;
