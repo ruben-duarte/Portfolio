@@ -25,13 +25,13 @@ function opentab(tabname){
     document.getElementById(tabname).classList.add("active-tab");
 }
 
-var sidemenu = document.getElementById("sidemenu");
-function openmenu( ){
-    document.getElementById("sidemenu").style.display = "block";
+// var sidemenu = document.getElementById("sidemenu");
+// function openmenu( ){
+//     document.getElementById("sidemenu").style.display = "block";
    
     
-}
-function closemenu( ){
-    sidemenu.style.display = "none";
-}  
+// }
+// function closemenu( ){
+//     sidemenu.style.display = "none";
+// }  
 
