@@ -164,6 +164,7 @@ p{
     padding: 30px 40px;
     border: 2px solid #184e77;
     border-radius: 2rem;
+   
     
 }
 
@@ -211,6 +212,7 @@ p{
 
     #header{
         background-color: #0fcfcc;
+        min-height: 100vh;
     }
 
     .header-text{
@@ -253,8 +255,9 @@ p{
     .header-text img{
         width: 400px;
         margin-left: 80px;
-        border-radius: 100px;
+        border-radius: 40px;
         margin-bottom: 90px;
+        opacity: 70%;
     }
 
     .header-text .row{
@@ -274,6 +277,15 @@ p{
         font-size: 16px;
     }
 
+    .header-text a:hover{
+        color:whitesmoke;
+        text-decoration: none;
+        padding: 10px 20px; 
+        margin-right: 20px ;
+        border: 2px solid white ;
+        font-size: 16px;
+    }
+
 
     nav{
         display: flex;
@@ -281,18 +293,21 @@ p{
         align-items: center;
         flex-wrap: wrap;
         padding: 5px 0;
+       
     }
 
     .logo{
-        width: 180px;
+        width: 150px;
         cursor: pointer;
-        margin-left: 80px;
+        margin-left: 90px;
+        
     }
 
     nav ul{
         flex:1;
         text-align: center;
-        padding-left: 500px;
+        padding-left: 400px;
+        
     }
 
     nav ul li{
@@ -312,7 +327,7 @@ p{
         content: ' ';
         width: 0;
         height: 3px;
-        background: #0973de;
+        background: #111261;
         position: absolute;
         left:0;
         bottom: -6px;
@@ -349,7 +364,13 @@ p{
     }
 
 
-
+    .separator{
+        width: 0;
+        height: 0;
+        border-right: 100vw solid transparent;
+        border-bottom: 13.9vw solid whitesmoke;
+        margin-top:  -13.9vw;
+    }
 
 
     
