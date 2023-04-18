@@ -257,7 +257,8 @@ p{
         margin-left: 80px;
         border-radius: 40px;
         margin-bottom: 90px;
-        opacity: 70%;
+        opacity: 80%;
+    
     }
 
     .header-text .row{
@@ -266,6 +267,7 @@ p{
         flex-wrap: wrap;
         margin-top: 30px;
         gap: 10px;
+        animation-delay: 0.5s;
     }
 
     .header-text a{
@@ -293,8 +295,9 @@ p{
         align-items: center;
         flex-wrap: wrap;
         padding: 5px 0;
-       
     }
+
+
 
     .logo{
         width: 150px;
@@ -372,12 +375,35 @@ p{
         margin-top:  -13.9vw;
     }
 
+    .name{
+      display: inline-block;
+      transform: rotate(180deg);
+      margin-left: 12px;
+      writing-mode:vertical-lr;
+      font-weight: bold;
+    
+    }
+
+    .anim{
+        opacity: 0;
+        transform: translateY(30px);
+        animation: moveup 0.5s linear forwards;
+    }
+
+    @keyframes moveup{
+        100%{
+            opacity: 1;
+            transform: translateY(0px);
+
+        }
+    }
+
 
     
 /* welcome*/
 
 :root {
-    --bg-color:#1186b1;
+    --bg-color:#0fcfcc;
     --typewriterSpeed: 6s;
 }
 
@@ -391,8 +417,33 @@ p{
     background: var(--bg-color);
 }
 
+.card{
+    background-color: #f8e065;
+    border: solid 4px #021e40;
+    box-shadow: 
+    15px 15px 0 -4px #021e40,
+    15px 15px 
+}
+
+.btn-square{
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid #021e40;
+    margin-top: 75px;
+    padding:  10px;
+    width: 90px;
+    margin-left: 400px;
+    font-size: 15px;
+}
+
+.btn-square:hover{
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+}
+
 #welcome h1{
-    color: #20204E;
+    color: #021e40;
+    font-size: 20px;
 }
 h1{
     font-size: clamp(1rem, 3vw + 1rem, 4rem);
@@ -414,14 +465,14 @@ h1::after {
 }
 
 h1::before {
-    background: #d0ffb7;
+    background: #f8e065;
     animation: typewriter var(--typewriterSpeed) steps(28) 1s forwards infinite;
 
 }
 
 h1::after{
     width: 0.125em;
-    background: #aacc00;
+    background: #021e40;
     animation: 
          typewriter var(--typewriterSpeed)  steps(28) 1s forwards infinite,
          blink 750ms steps(28) infinite;

@@ -36,8 +36,8 @@
         <h3>Rubén Darío  🎧💻 <span></span></h3>
         <br>
         <div class="tenor-gif-embed" data-postid="25731151" data-share-method="host" data-aspect-ratio="1.78771" data-width="100%"><a href="https://tenor.com/view/coding-gif-25731151" >Coding GIF</a>from <a href="https://tenor.com/search/coding-gifs">Coding GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js "></script>
-
-        <a href="#header" type="button" class="cta">Home</a>
+    
+        <a href="#header" type="button" class="cta" >Home</a>
         <a href="#about" type="button" class="cta">About me</a>
       </div>
     </div>
@@ -46,8 +46,8 @@
 <!-- -----------Home--------- -->
 <header class="home" id="header">
   <div class="box">
-    <nav class="main-nav">
-        <img src="./images/logo.png" alt="Logo" class="logo">
+    <nav id="navigation" class="main-nav anim">
+        <a href="#header" onclick="reload()"><img id='img' src="./images/logo.png" alt="Logo" class="logo" ></a>
         <ul id="sidemenu">
             <li><a href="#services">Services</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
@@ -56,29 +56,53 @@
         </ul>
     </nav>
     <div class="header-text">
-        <img src="./images/home.jpg" alt="portatil" class="coding">
+        <img src="./images/home.jpg" alt="portatil" class="coding anim">
         <p>I'M</p>
-        <h2> Ruben Duarte </h2>
-        <div class="row">
-          <a href="#">Junior FullStack Dev &#x2632;</a>
-          <a href="#">Mechanical Engineer &#x2635;</a>
+        <h2 > Ruben Duarte </h2>
+        <div class="row anim">
+          <a href="#presentation" onclick="reload()">Junior FullStack Dev &#x2632;</a>
+          <a href="#welcome" >Mechanical Engineer &#x2635;</a>
         </div>
     </div>
-    <div class="separator"></div>
-</div>
+
+    <div class="separator">
+      <br>
+      <br>
+      <br>
+      <div class="name">
+        <h3> DARIO.dev© ﹡</h3>
+    </div>
+    <div class="name">
+      <h3> RUBEN ﹡ </h3>
+  </div>
+
 
 </header>
 
 <!-- -----------welcome--------- -->
 <section id="welcome" class="home2">
-  <h1>  "firmitas, utilitas, and venustas " ;   . . </h1>
-  <h1> "Durability, Utility, Beauty"  Vitruvius .</h1>
-  <h1> <br>
-             <br>                                                         </h1>
-  <h1>  "Less but better" ;     . .   </h1>
-  <h1>    . . Dieter Rams   . .    </h1>
-  <h1 class="letter">print(f"Welcome! {name}")</h1>
-  <input type="button" onclick="window.location.href='#header';" value="Home" class="boton">
+      <div class="card">
+        <h1>  "firmitas, utilitas, and venustas "... </h1>
+        <h1> "Durability, Utility, Beauty" ...<cite> Vitruvius...</cite> </h1>
+      </div>
+   <br>
+   <br>                                                        
+        <div class="card">
+          <h1>  "Less but better"...    </h1>
+          <h1>   <cite> Dieter Rams... </cite>     </h1>
+        </div>
+      <br>
+      <br>
+      <div class="card">
+        <h1>  "Clean code is simple and direct. <br> Clean code
+          reads like well-written prose. <br> Clean code never
+          obscures the designer’s intent <br> but rather is full
+          of crisp abstractions <br> and straightforward lines
+          of control."...    </h1>
+        <h1>   <cite> Grady Booch... </cite>     </h1>
+      </div>
+
+  <input type="button" onclick="window.location.href='#header';" value="Home" class="btn-square">
 
 </section>
 

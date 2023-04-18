@@ -35,3 +35,20 @@ function opentab(tabname){
 //     sidemenu.style.display = "none";
 // }  
 
+// animation home page
+function ani() {
+    document.getElementById('img').className = 'anim';
+  }
+
+  // reload page
+  function reload() {
+    reload = location.reload();
+}
+
+
+
+
+
+
+
+
