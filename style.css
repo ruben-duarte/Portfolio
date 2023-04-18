@@ -128,19 +128,19 @@ p{
     position: relative;
     color: transparent;
     animation: text_reveal .5s  ease forwards;
-    animation-delay: 8.5s;
+    animation-delay: 4.5s;
 
 }
 
 #presentation h3:nth-child(1){
-    animation-delay: 8.2s;
+    animation-delay: 4.2s;
 }
 #presentation h3:nth-child(2){
-    animation-delay: 9.2s;
+    animation-delay: 5.2s;
 }
 #presentation h3:nth-child(3){
     animation: text_reveal_name .5s ease forwards;
-    animation-delay: 10.2s;
+    animation-delay: 6.2s;
 }
 
 #presentation .cta{
@@ -211,7 +211,7 @@ p{
     /* Home Header*/
 
     #header{
-        background-color: #0fcfcc;
+        background: linear-gradient(45deg, #0fcfcc, #f8e065);
         min-height: 100vh;
     }
 
@@ -248,17 +248,22 @@ p{
             background-position: 2000px 0;
         }
     }
-
-
-
     
     .header-text img{
         width: 400px;
         margin-left: 80px;
-        border-radius: 40px;
+        border-radius: 20px;
         margin-bottom: 90px;
-        opacity: 80%;
-    
+        box-shadow: 
+        15px 15px 0 -4px #021e40,
+        15px 15px 
+    }
+
+    .header-text img:hover{
+        border-radius: 40px;
+        box-shadow: 
+        15px 15px 0 -4px #f8e065,
+        15px 15px 
     }
 
     .header-text .row{
@@ -414,8 +419,9 @@ p{
     display: grid;
     place-content: center;
     text-align: center;
-    background: var(--bg-color);
+    background: linear-gradient(45deg, var(--bg-color),#f8e065);
 }
+
 
 .card{
     background-color: #f8e065;
@@ -519,16 +525,15 @@ h1::after{
 
 
 
-
-/* ---------Services------- */
+/* ---------Services- Skills------ */
 
 #services{
     padding: 30px 0;
     min-height: 100vh;
-    background-color: #151433;
+    background: linear-gradient(45deg, #0fcfcc, #f8e065);
 }
 #services h1{
-    color: #17C0FE;
+    color: #021e40;
     margin-left: 500px;
 }
 
@@ -540,7 +545,7 @@ h1::after{
 
 }
 .services-list div{
-    background:#20204E;
+    background:#021e40;
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
@@ -553,30 +558,30 @@ h1::after{
 .services-list div i{
     font-size: 50px;
     margin-bottom: 30px;
-    color: #050A30;
+    color: #021e40;
 }
 .services-list div h2{
-    font-size: 30px;
+    font-size: 22px;
     font-weight: 500;
     margin-bottom: 15px;
-    color: #17C0FE;
+    color: #f8e065;
 }
 
 .services-list div p{
-    color: #20204E;
+    color: #021e40;
     font-size: 17px;
     font-weight: bold;
 }
 
 .services-list div a{
     text-decoration: none;
-    color: #050A30;
+    color: #021e40;
     font-size: 14px;
     margin-top: 20px;
     display: inline-block;
 }
 .services-list div:hover{
-    background-color: #17C0FE;
+    background-color: #f8e065;
     transform: translateY(-10px);
 }
 
@@ -1387,7 +1392,7 @@ nav .fa-solid{
 }
 }
 
-@media only screen and (max-width: 920px) and (orientation: landscape){
+@media only screen and (max-width: 1200px) and (orientation: landscape){
     
     body{
         min-width: 100vh;

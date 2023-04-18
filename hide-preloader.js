@@ -6,7 +6,7 @@ var LoadingScreenOut = function( ){
 };
 
 var wait5seconds = function( ) {
-    var result = setTimeout( LoadingScreenOut, 7000);
+    var result = setTimeout( LoadingScreenOut, 2000);
 };
 
 window.addEventListener("load", wait5seconds);
