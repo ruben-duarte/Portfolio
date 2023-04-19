@@ -456,7 +456,7 @@ h1{
     position: relative;
     font-family: "Source Code Pro", monospace;
     position: relative;
-    color: #17C0FE;
+    color: #021e40;
     width: max-content; 
 }
 
@@ -600,7 +600,7 @@ h1::after{
 #portfolio{
     padding: 50px 0;
     min-height: 100vh;
-    background-color: #151433;
+    background: linear-gradient(45deg, #4fa8f3, #f5fcbb)
 }
 
 
@@ -628,11 +628,15 @@ h1::after{
     border-radius: 20px;
     display: block;
     transition: transform  0.5s;
+    box-shadow: 
+    15px 15px 0 -4px #021e40,
+    15px 15px 
 }
+
 .layer{
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(63,66,163,0.6), #17C0FE);
+    background: linear-gradient(rgba(245, 238, 138, 0.6), #0fcfcc);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -646,11 +650,13 @@ h1::after{
     text-align: center;
     font-size: 14px;
     transition: height 0.5s;
+    
 }
 .layer h3{
     font-size: 30px;
     margin-bottom: 20px; 
     color: #1C1948;
+
 }
 .layer a{
     margin-top: 20px;
@@ -697,7 +703,7 @@ h1::after{
 /* Learning journey section */
 
 #portafolio{
-    background-color: #151433;
+    background: linear-gradient(45deg, #0fcfcc, #f8e065);
 }
 
 #portafolio .portafolio{
@@ -854,7 +860,7 @@ h1::after{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
     min-height: 100vh;
-    background-color: #151433;
+    background: linear-gradient(45deg, #0fcfcc, #f8e065);
 }
 .row{
     display: flex;
@@ -979,7 +985,7 @@ h1::after{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #151433;
+    background: linear-gradient(45deg, #0fcfcc, #f8e065);
 
 }
 
@@ -1044,7 +1050,7 @@ h1::after{
 
 #contact{
     min-height: 100vh;
-    background-color: #151433;
+    background: linear-gradient(45deg, #0fcfcc, #f8e065);
 }
 .contact-left{
     flex-basis: 35%;
