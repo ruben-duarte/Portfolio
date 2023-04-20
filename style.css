@@ -699,6 +699,64 @@ h1::after{
     color: #17C0FE;
 }
     
+/* -----video Gallery ----- */
+.container-gallery{
+    min-height: 100vh;
+    margin-top: 100px;
+}
+
+.container-gallery h1{
+    margin-left: 500px;
+}
+
+.container-gallery .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-gallery .col{
+    flex-basis: 50%;
+    min-width: 350px;
+}
+
+.feature-img{
+    width: 300px;
+    margin: auto;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-top: 80px;
+    margin-left: 70px;
+}
+
+.small-img-row{
+    display: flex;
+    background: #efefef;
+    margin: -280px 450px;
+    align-items: center;
+    border-radius: 6px;
+    overflow: hidden;   
+    width: 800px;
+    height: 200px;
+    margin-bottom: 300px;
+}
+
+.small-img-row p{
+    font-size: 18px;
+    color: #021e40;
+    font-weight: bold;
+    padding-right: 20px;
+    padding-left: 30px;
+}
+
+.small-img-row a{
+    color: #184e77;
+    font-size: 20px;
+}
+
+
+
 
 /* Learning journey section */
 
@@ -1181,11 +1239,13 @@ nav .fa-solid{
 } 
 
 
-
-@media only screen and (max-width: 600px){
+@media screen and (max-width: 600px){
     body{
         width: 412px;
     }
+
+
+
 
     #presentation .card {
         background-color: #78A1BB;
@@ -1196,11 +1256,39 @@ nav .fa-solid{
         width: 400px;
         
     }
+
+    .header-text{
+        flex-wrap: wrap;
+    }
+
+    .header-text .row{
+        flex-wrap: wrap;
+    }
+
+    .header-text .row a{
+        font-size: 12px;
+        margin-top: -80px;
+    }
     
 
     .header-text img{
         width: 340px;
         margin-left: 25px;
+    }
+
+    .header-text p{
+        font-size: 20px;
+        margin-top: -90px;
+   
+    }
+
+    .header-text h2{
+        font-size: 40px;
+        margin-top: -80px;
+    }
+
+    .separator .name {
+        display: none;
     }
 
     nav .fa-solid{
