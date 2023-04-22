@@ -6,7 +6,6 @@
   <link rel="stylesheet" href="style.css">
   <title>Portifólio</title>
   <script src="https://kit.fontawesome.com/8a641553c4.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <!-- -----------Preloading--------- -->
@@ -47,17 +46,24 @@
 <!-- -----------Home--------- -->
 <header class="home" id="header">
   <div class="box">
-    <nav id="navigation" class="main-nav anim">
-        <a href="#header" onclick="reload()"><img id='img' src="./images/logo.png" alt="Logo" class="logo" ></a>
+    <nav id="navigation" class="main-nav anim" class="navbar">
+
+      
         <ul id="sidemenu">
+          <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </a>
+        <div class="navbar-links">
+             <a href="#header" onclick="reload()"><img id='img' src="./images/logo.png" alt="Logo" class="logo" ></a>
             <li><a href="#services">Skills</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#about">About me</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="#" class="icon">
-              <i class="fa fa-bars"></i>
-            </a></li>
+       </div>
         </ul>
+        
     </nav>
     <div class="header-text">
         <img src="./images/home.jpg" alt="portatil" class="coding anim">
