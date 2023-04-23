@@ -10,6 +10,11 @@ html{
     font-size: 10px;
     font-family: 'Roboto', 'Times New Roman', Times, serif;
     scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body{
+    overflow-x: hidden;
 }
 
 a{
