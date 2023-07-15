@@ -1,5 +1,6 @@
 # Portfolio
-Welcome to my portfalio 
+Welcome to my portfolio!
+**Junior Full Stack Developer, who enjoys solving real life problems through technology with great interest in web development, industry 4.0, IA, cibersecurity and energy transition**
 
 ![portfolio01](https://github.com/ruben-duarte/Portfolio/assets/107430911/5e391046-1686-4ee7-aed0-1dcc1e26d484)
 
@@ -10,7 +11,8 @@ Welcome to my portfalio
 * Here you can find some of my projects 🎨
   **more coming soon**
 
-  ![portfolio03](https://github.com/ruben-duarte/Portfolio/assets/107430911/55d2a0e4-12d3-48f9-85cc-586a80422261)
+ ![portfolio03](https://github.com/ruben-duarte/Portfolio/assets/107430911/9ff60c71-bf04-4a3e-9b96-5507c800e967)
+
 
 * If you need further information don´t doubt to contact me 💻
 
