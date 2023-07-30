@@ -1,4 +1,3 @@
-
 var loader = document.getElementById("page-preloader")
 
 var LoadingScreenOut = function( ){

@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <title>Portifólio</title>
   <script src="https://kit.fontawesome.com/8a641553c4.js" crossorigin="anonymous"></script>
 </head>
@@ -28,24 +29,11 @@
       </div>
     </div>
   </section>
-  <section id="presentation">
-    <div class="presentation container">
-      <div class="card">
-        <h3 >Hi ! ✋  my name is <span></span></h3>
-        <!-- <h3>my name is <span></span></h3> -->
-        <h3>Rubén Darío  🎧💻 <span></span></h3>
-        <br>
-        <div class="tenor-gif-embed" data-postid="25731151" data-share-method="host" data-aspect-ratio="1.78771" data-width="100%"><a href="https://tenor.com/view/coding-gif-25731151" >Coding GIF</a>from <a href="https://tenor.com/search/coding-gifs">Coding GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js "></script>
-    
-        <a href="#header" type="button" class="cta" >Home</a>
-        <a href="#about" type="button" class="cta">About me</a>
-      </div>
-    </div>
-  </section>
+
 
 <!-- -----------Home--------- -->
 <header class="home" id="header">
-  <div class="box">
+  <div class="box" >
     <nav id="navigation" class="main-nav anim" class="navbar">
 
       
@@ -56,44 +44,58 @@
             <span class="bar"></span>
           </a>
         <div class="navbar-links">
-             <a href="#header" onclick="reload()"><img id='img' src="./images/logo.png" alt="Logo" class="logo" ></a>
-            <li><a href="#services">Skills</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#about">About me</a></li>
-            <li><a href="#contact">Contact</a></li>
-       </div>
-        </ul>
-        
-    </nav>
-    <div class="header-text">
-        <img src="./images/home.jpg" alt="portatil" class="coding anim">
-        <p>I'M</p>
-        <h2 > Ruben Duarte </h2>
-        <div class="row anim">
-          <a href="#presentation" onclick="reload()">Junior FullStack Dev &#x2632;</a>
-          <a href="#welcome" >Mechanical Engineer &#x2635;</a>
-        </div>
-    </div>
+             <a href="#header" onclick="reload()"><h2 class="logo">I n g e n u i t y</h2></a>
+            <li><a href="#services">S e r v i c e s</a></li>
+            <li><a href="#portfolio">P o r t f o l i o</a></li>
+            <li><a href="#about">A b o u t</a></li>
+            <li><a href="#contact">C o n t a c t</a></li>
 
-    <div class="separator">
-      <br>
-      <br>
-      <br>
+            <div class="social-icons2">
+              <a href="https://github.com/ruben-duarte/"><i class="fa-brands fa-github"></i></a>
+              <a href="https://twitter.com/RubenDu80676511"><i class="fa-brands fa-twitter-square"></i></a>
+              <a href="https://co.linkedin.com/in/duarteanayaruben"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+       </div>
+
+
+
+        </ul>    
+    </nav>
+
+    <section class="init" >
+      <div class="phrase">Hello, I design fullStack applications <br> and digital experiences</div>   
+      <div class="header-text">
+        
+          <div class="intro"> 
+               
+          </div>
+          <h2 data-aos="fade-down" > Ruben Duarte </h2>
+          <div class="row anim">
+            <a href="#presentation" onclick="reload()">Junior FullStack Dev &#x2632;</a>
+            <a href="#welcome" >Mechanical Engineer &#x2635;</a>
+          </div>
+      </div>
+  
+      <div class="separator">
+        <br>
+        <br>
+        <br>
+        <div class="name" >
+          <h3> DARIO.dev© ﹡</h3>
+      </div>
       <div class="name">
-        <h3> DARIO.dev© ﹡</h3>
+        <h3> RUBEN ﹡ </h3>
     </div>
-    <div class="name">
-      <h3> RUBEN ﹡ </h3>
-  </div>
-  </div>
+    </div>
+    </section>
 
 
 </header>
 
-<!-- -----------welcome--------- -->
-<section id="welcome" class="home2">
-      <div class="card">
-        <h1>  "firmitas, utilitas, and venustas "... </h1>
+<!-- -----------welcome     --------- -->
+<section id="welcome" class="home2" data-aos="fade-up">
+      <div class="card" >
+        <h1 > "firmitas, utilitas, and venustas "...  💻🎧  ....</h1>
         <h1> "Durability, Utility, Beauty" ...<cite> Vitruvius...</cite> </h1>
       </div>
    <br>
@@ -119,22 +121,22 @@
 
 
  <!-- --------------- services---------------- -->
- <div id="services">
+ <div id="services" data-aos="fade-up">
   <div id="container">
       <h1 class="sub-title">SKILLS</h1>
       <div class="services-list">
-          <div>
+          <div >
               <i class="fa-solid fa-code"></i>
               <h2>Web development</h2>
               <p>Frontend and backend implementation using agile methodologies, intuitive and responsive websites. <br> Let's work together </p>
                    <a href="#header">Learn more</a>
           </div>
-          <div>
+          <div >
               <i class="fa-brands fa-adn"></i>
               <h2> Numpy, Pandas </h2>
               <p>Data-science and Engineering applications</p>
                    <a href="#portfolio">Learn more</a>
-          </div>
+          </div >
           <div class="goUp">
              <a href="#header"><i class="fa-sharp fa-solid fa-arrow-up"></i>
             <h2>Go back</h2> </a>
@@ -145,12 +147,12 @@
 </div>
 
  <!-- ---------portfolio---------- -->
- <div id="portfolio">
+ <div id="portfolio" data-aos="fade-right">
   <div class="MainPortafolio">
       <h1 class="sub-title">PROJECTS</h1>
       <div class="work-list">
           <div class="work">
-              <img src="./images/blogFotografia.jpg" alt="Blog fotografia" >
+              <p>Photography blog</p>
               <div class="layer">
                   <h3>Photography blog</h3>
                   <p>Static website developed with html5 css3 and Js</p>
@@ -158,7 +160,7 @@
               </div>
           </div>
           <div class="work">
-              <img src="./images/codex-list.jpg" alt="Django app codex list" >  
+              <p>The codex-List app</p> 
               <div class="layer">
                   <h3>The-CodexList-app Project</h3>
                   <p>A task list app to create a simple tracker, Django app using postgresql and docker-compose-awsEC2 to deploy </p>
@@ -166,7 +168,7 @@
               </div>
           </div>
           <div class="work">
-              <img src="./images/django-app.jpg" alt="Django app task tracking home" >  
+              <p>Django app</p>
               <div class="layer">
                   <h3>Django task tracking app</h3>
                   <p>Django app, Bootsrap, authentication user and AWS EC2  </p>
@@ -174,7 +176,7 @@
               </div>
           </div>
           <div class="work">
-              <img src="./images/Lafisiotp.jpg" alt="la fisioTP" width="400 px" >
+              <p>LaFisioTP</p>
               <div class="layer">
                   <h3>La fisioTP </h3>
                   <p>This web app is a real-life project for a physioterapist client, developed with Scrum team in MinTic22  </p>
@@ -182,7 +184,7 @@
               </div>
           </div>
           <div class="work">
-            <img src="./images/InerziaApp.jpg" alt="language app" >
+            <p>Inerzia app</p>
             <div class="layer">
                 <h3>English learning Project</h3>
                 <p>Mobile App developed with Scrum team in MinTic22 using AndroidStudio And Firebase</p>
@@ -190,7 +192,7 @@
             </div>
         </div>
         <div class="work">
-          <img src="./images/mario.jpg" alt="Mario Game" >
+          <p>Mario Game</p>
           <div class="layer">
               <h3>JS Game</h3>
               <p>Project Developed with JS</p>
@@ -198,7 +200,7 @@
           </div>
       </div>
           <div class="work">
-              <img src="./images/techBlog.jpg" alt="techBlog" >
+              <p>Tech Blog</p>
               <div class="layer">
                   <h3>Tech blog coming project</h3>
                   <p>Blog project to share programing concepts that help others in their learning</p>
@@ -206,7 +208,7 @@
               </div>
           </div>  
           <div class="work">
-              <img src="./images/coding.jpg" alt="coding">
+              <p>Consuming Api</p>
               <div class="layer">
                   <h3>Consuming an API coming project</h3>
                   <p>Project coming soon</p>
@@ -214,7 +216,7 @@
               </div>
           </div>
           <div class="work">
-              <img src="./images/luca-bravo-XJXWbfSo2f0-unsplash.jpg" alt="new project" >
+            <p>New project</p>
               <div class="layer">
                   <h3>Python Projects</h3>
                   <p>New projects with python 3 and django 4.1</p>
@@ -222,7 +224,7 @@
               </div>
           </div>
           <div class="work">
-              <img src="./images/webEstatica.jpg" alt="webEstatica" >
+              <p>Go back</p>
               <div class="layer">
                   <h3>Go back</h3>
                   <p></p>
@@ -231,7 +233,7 @@
           </div>
       </div>
       <!-- <a href="#" class="btn">See more</a> -->
-        <div class="container-gallery">
+        <div class="container-gallery" data-aos="fade-right">
           <h1>video Gallery</h1>
           <div class="row">
                 <div class="col">
@@ -286,7 +288,7 @@
 
 
   <!-- -----------about---------- -->
-  <div id="about">
+  <div id="about" data-aos="fade-right">
     <div class="principal">
         <div class="row">
             <div class="about-col-1">
@@ -338,7 +340,7 @@
 
 <!-- -----------Learning journey--------- -->
 
-  <section id="portafolio">
+  <section id="portafolio" data-aos="fade-right">
     <div class="portafolio container">
       <div class="portafolio-header">
         <h1 class="section-title"> <span>LEARNING JOURNEY</span></h1>
@@ -425,62 +427,6 @@
   </section>
 
 
-  <!-- -----------technologies and languages--------- -->
-   <section id="technologies" class="technologies">
-    <h1 class="tech">LANGUAGES</h1>
-    <div class="languages-left">
-      <ul>
-
-        <li style="--clr:#00ade1">
-          <a  data-text="&nbsp;JAVASCRIPT">&nbsp;JAVASCRIPT</a>
-        </li>
-        <li style="--clr:#00dc82">
-          <a  data-text="&nbsp;SQL">&nbsp;SQL</a>
-        </li>
-        <li style="--clr:#ffdd1c">
-          <a  data-text="&nbsp;PYTHON3">&nbsp;PYTHON3</a>
-        </li>
-        <li style="--clr:#00dc82">
-          <a  data-text="&nbsp;JAVA">&nbsp;JAVA</a>
-        </li>
-
-      </ul>
-    </div>
-    <div class="languages-right">
-      <ul>
-        <li style="--clr:#00ade1">
-          <a  data-text="&nbsp;Spanish">&nbsp;Spanish_Native</a>
-        </li>
-        <li style="--clr:#00ade1">
-          <a data-text="&nbsp;English">&nbsp;English_B2</a>
-        </li>
-        <li style="--clr:#00ade1">
-          <a  data-text="&nbsp;Portuguese">&nbsp;Portuguese_C1</a>
-        </li>
-        <li style="--clr:#00dc82">
-          <a data-text="&nbsp;French">&nbsp;French_A2</a>
-        </li>
-        <li style="--clr:#00dc82">
-          <a data-text="&nbsp;Japanese">&nbsp;Japanese_A1</a>
-        </li>
-        <li style="--clr:#00dc82">
-          <a data-text="&nbsp;German">&nbsp;German_A1 </a>
-        </li>
-        <li style="--clr:#ffdd1c">
-          <a data-text="&nbsp;Hebrew">&nbsp;Hebrew_A1</a>
-        </li>
-      </ul>
-
-    </div>
-    
-    <div class="cubes">
-      <a href="#header"><i class="fa-solid fa-cubes"></i></a>
-      <input type="button" onclick="window.location.href='#header';" value="Home" class="btn-square">
-    </div>
-
-   </section> 
-
-
   <!-- --------------contact--------------- -->
 <div id="contact">
   <div class="getInTouch">
@@ -519,5 +465,13 @@
 
 
    <script src="hide-preloader.js"></script>
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script>
+      AOS.init();
+      AOS.init({
+      duration: 1200,
+      once: true,  
+    });
+   </script>
 </body>
 </html>
