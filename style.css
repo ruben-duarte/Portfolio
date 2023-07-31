@@ -659,6 +659,7 @@ h1::after{
     grid-gap: 30px;
     margin-top: 40px;
     justify-content: center;
+    
 }
 
 .sub-title{
@@ -1299,7 +1300,7 @@ form .btn2{
 }
 
 /* -------Responsive Design------------- */
-@media only screen and (min-width: 768px){
+@media only screen and (max-width: 800px) and (min-width: 768px) {
     #portafolio .project-item {
         flex-direction: row;
         height: 400px;
@@ -1324,6 +1325,15 @@ nav .fa-solid{
     color:#17C0FE;
     background-color:#1C1948;
     cursor: pointer;
+}
+
+.work-list{
+    display: grid;
+    grid-template-columns: 400px;
+    grid-gap: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    
 }
 
 } 
@@ -1431,7 +1441,7 @@ nav .fa-solid{
 
 
 
-@media screen and (max-width: 600px) and (orientation: landscape) {
+@media screen and (max-width: 600px) {
     body{
         width: 412px;
     }
