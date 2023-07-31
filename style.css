@@ -16,8 +16,6 @@ html{
 
 body{
     overflow-x: hidden;
-    width: 100%;
-    min-height: 100vh;
 }
 
 a{
@@ -467,7 +465,6 @@ p{
     margin: 0;
     font-family: "Source Sans Pro", sans-serif;
     min-height: 100vh;
-    width: 100%;
     display: grid;
     place-content: center;
     text-align: center;
@@ -582,7 +579,6 @@ h1::after{
 #services{
     padding: 30px 0;
     min-height: 100vh;
-    width: 100%;
     background: #D7E7EE;
 }
 #services h1{
@@ -653,7 +649,6 @@ h1::after{
 #portfolio{
     padding: 50px 0;
     min-height: 100vh;
-    width: 100%;
     background: #f5fafc;
 }
 
@@ -987,7 +982,6 @@ h1::after{
     font-family: 'Monserrat', sans-serif;
     font-size: 14px;
     min-height: 100vh;
-    width: 100%;
     background: #D7E7EE;
 }
 .row{
@@ -1202,7 +1196,6 @@ h1::after{
 
 #contact{
     min-height: 100vh;
-    width: 100%;
     background: #f5fafc;
 }
 .contact-left{
@@ -1438,7 +1431,7 @@ nav .fa-solid{
 
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) and (orientation: landscape) {
     body{
         width: 412px;
     }
@@ -1493,16 +1486,17 @@ nav .fa-solid{
     }
     .about-col-1,.about-col-2{
         flex-basis: 100%;
+        width: 400px;
     }
     .about-col-1{
         margin-bottom: 30px;
     }
     .about-col-2{
-        font-size: 14px;
+        font-size: 12px;
     }
     .tab-links{
-        font-size: 16px;
-        margin-right: 20px;
+        font-size: 12px;
+        margin-right: 8px;
     }
     .contact-left,.contact-right{
         flex-basis: 100%;
