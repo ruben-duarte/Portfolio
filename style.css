@@ -1300,7 +1300,7 @@ form .btn2{
 }
 
 /* -------Responsive Design------------- */
-@media only screen and (max-width: 800px) and (min-width: 768px) {
+@media only screen and (max-width: 900px) and (min-width: 618px) {
     #portafolio .project-item {
         flex-direction: row;
         height: 400px;
