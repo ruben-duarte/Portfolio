@@ -1005,8 +1005,8 @@ h1::after{
 }
 
 .about-col-2 h1{
-    color: #0fcfcc;
-    background-color: #D7E7EE;
+    color: #3bccca;
+    background-color: #dce6eb;
 }
 .about-col-2 {
     flex-basis: 65%;
@@ -1017,7 +1017,7 @@ h1::after{
 .about-col-2 p{
     font-size: 14px;
     color: #021e40;
-    background-color: #f5fafc;
+    background-color: #a6d8eb;
     padding: 12px;
     border-radius: 8px;
     font-family:'Courier New', Courier, monospace;
@@ -1031,7 +1031,7 @@ h1::after{
 }
 
 .tab-titles p{
-    color: #0fcfcc;
+    color: #0f8b89;
     font-size: 14px;
     font-weight: bold;
 
@@ -1570,7 +1570,7 @@ nav .fa-solid{
 }
 
 .about-col-2 p{
-    color: #7EC8E3;
+    color: #3c788d;
 }
 
 .about-col-1 img{
