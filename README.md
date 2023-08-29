@@ -3,19 +3,19 @@ Welcome to my portfolio!
 
 **Junior Full Stack Developer, who enjoys solving real life problems through technology with great interest in web development, industry 4.0, IA, cibersecurity and energy transition**
 
-![portfolio01](https://github.com/ruben-duarte/Portfolio/assets/107430911/5e391046-1686-4ee7-aed0-1dcc1e26d484)
+![newPortfolio01](https://github.com/ruben-duarte/codexList-app/assets/107430911/04610563-d7d1-49ef-abab-3bacb32de09a)
 
 * I hope you enjoy the journey 🎬
 
 
-![portfolio02](https://github.com/ruben-duarte/Portfolio/assets/107430911/3855451d-02c9-4d2c-9ec9-8b529511289d)
+![newPortfolio02](https://github.com/ruben-duarte/codexList-app/assets/107430911/a62cc338-94d2-4529-ad89-f4b646977a05)
 
 * Here you can find some of my projects 🎨
   
 **more coming soon**
 
 
- ![portfolio03](https://github.com/ruben-duarte/Portfolio/assets/107430911/9ff60c71-bf04-4a3e-9b96-5507c800e967)
+ ![newPortfolio03](https://github.com/ruben-duarte/codexList-app/assets/107430911/be416755-9225-4a65-a34a-41a526254f09)
 
 * If you need further information don´t doubt to contact me 💻
 
