@@ -1551,6 +1551,18 @@ nav .fa-solid{
     height: 180px;
  }
 
+ #services-mechanical p {
+    font-size: 12px;
+ }
+
+ #services-mechanical h2 {
+    font-size: 16px;
+ }
+
+ #services-mechanical .animation {
+    width: 300px;
+    height: 250px;
+ }
 
 /* ------about-------     */
 
