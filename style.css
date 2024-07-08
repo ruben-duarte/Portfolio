@@ -37,7 +37,7 @@ p{
 
 /* Preloading page section */
 .wrap-page{
-    background-color: #f5fafc;
+    background-color: #d8e3e7;
     color: #264653;
     min-height: 100vh;
 }
@@ -217,13 +217,22 @@ p{
     /* Home Header*/
 
     #header{
-        background: #f5fafc;
+        background: #e3edf1;
         min-height: 100vh;
     }
 
     .header-text{
         display:flex;
         align-items:center;
+    }
+
+    .phrase{
+        //font-weight: 900;
+        color: #021e40;
+    }
+
+    .phrase .subtitle{
+        font-size: 40px;
     }
 
 
@@ -286,12 +295,13 @@ p{
     }
 
     .header-text a:hover{
-        color:#0fcfcc;
+        color:#021e40;
         text-decoration: none;
         padding: 10px 20px; 
         margin-right: 20px ;
         border: 2px solid #0fcfcc ;
         font-size: 16px;
+        font-weight: 700;
     }
 
 
@@ -375,7 +385,8 @@ p{
         width: 100%;
     }
     nav ul li a:hover{
-        color: whitesmoke ;
+        color: #111261;
+        font-weight: 700;
     } 
 
 
