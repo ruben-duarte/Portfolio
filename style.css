@@ -217,7 +217,7 @@ p{
     /* Home Header*/
 
     #header{
-        background: #e3edf1;
+        background: #e1edf1;
         min-height: 100vh;
     }
 
@@ -590,7 +590,7 @@ h1::after{
 #services{
     padding: 30px 0;
     min-height: 100vh;
-    background: #D7E7EE;
+    background: #d4e4eb;
 }
 #services h1{
     color: #021e40;
@@ -645,6 +645,12 @@ h1::after{
     transform: translateY(-10px);
 }
 
+.board {
+    background-color: #f5dc5d;
+    padding: 8px;
+    border-radius: 4px;
+}
+
 
 
 .a-regular fa-arrow-up-from-arc .arrowUp{
@@ -660,7 +666,7 @@ h1::after{
 #portfolio{
     padding: 50px 0;
     min-height: 100vh;
-    background: #f5fafc;
+    background: #81a8b8;
 }
 
 
